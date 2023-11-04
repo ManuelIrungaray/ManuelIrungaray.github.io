@@ -29,14 +29,17 @@
   padding: 0;
 }
 
-#user-list li {
+.user-details {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   padding: 5px 0;
 }
 
-#user-list span {
-  flex: 1;
+.user-details img {
+  width: 32px; /* Adjust the size of the profile picture */
+  height: 32px;
+  border-radius: 50%; /* Make the image circular for a profile picture effect */
+  margin-right: 10px;
 }
 
 #search-bar {
