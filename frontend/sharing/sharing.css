@@ -15,9 +15,10 @@
   text-align: center;
 } */
 #popup-content {
+  position: absolute; /* Change to absolute positioning */
+  top: 10px; /* Position at the top of the pop-up container */
   text-align: center;
-  margin-top: 100px; /* Add some top margin to push the text to the top */
-  font-size: 1px; /* Adjust the font size to make it smaller */
+  font-size: 14px; /* Adjust the font size to make it smaller */
 }
 
 #popup-button {
