@@ -16,8 +16,8 @@
 } */
 #popup-content {
   text-align: center;
-  margin-top: 10px; /* Add some top margin to push the text to the top */
-  font-size: 14px; /* Adjust the font size to make it smaller */
+  margin-top: 20px; /* Add some top margin to push the text to the top */
+  font-size: 5px; /* Adjust the font size to make it smaller */
 }
 
 #popup-button {
