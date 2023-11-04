@@ -6,10 +6,16 @@
   padding: 10px;
   margin: 10px;
 } */
-.box {
+/* .box {
     width:500px;
     margin:50px ;
     float:right;
     top:-40px;
     border: 5px solid black;
 }
+ */
+<div id="popup-window">
+  <h1>Pop-up Window</h1>
+  <p>This is a pop-up window.</p>
+  <button id="close-button">Close</button>
+</div> 
