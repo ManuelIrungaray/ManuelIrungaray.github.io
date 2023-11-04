@@ -11,8 +11,13 @@
   transition: right 0.3s ease-in-out; /* Smooth slide-in/out effect */
 }
 
+/* #popup-content {
+  text-align: center;
+} */
 #popup-content {
   text-align: center;
+  margin-top: 10px; /* Add some top margin to push the text to the top */
+  font-size: 14px; /* Adjust the font size to make it smaller */
 }
 
 #popup-button {
