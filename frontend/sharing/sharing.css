@@ -1,26 +1,48 @@
 #popup-container {
   position: fixed;
   top: 0;
-  right: -400px; /* Initially hidden on the right side */
+  right: -400px;
   width: 300px;
-  height: 80%;
+  height: 100%;
   background: white;
   border: 1px solid black;
   padding: 10px;
   z-index: 10;
-  transition: right 0.3s ease-in-out; /* Smooth slide-in/out effect */
+  transition: right 0.3s ease-in-out;
 }
 
-/* #popup-content {
-  text-align: center;
-} */
 #popup-content {
-  position: absolute; /* Change to absolute positioning */
-  top: 10px; /* Position at the top of the pop-up container */
   text-align: center;
-  font-size: 14px; /* Adjust the font size to make it smaller */
 }
 
-#popup-button {
-  margin: 20px;
+#popup-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+#popup-header h1 {
+  text-decoration: underline; /* Add underline to "Collaboration Tools" */
+}
+
+#user-list {
+  list-style: none;
+  padding: 0;
+}
+
+#user-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+#user-list span {
+  flex: 1;
+}
+
+#search-bar {
+  padding: 10px;
+}
+
+#search-bar input {
+  width: 100%;
 }
