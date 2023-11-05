@@ -35,7 +35,7 @@
 }
 
 #popup-header h1 {
-  font-size: 10px;
+  font-size: 14px;
   text-decoration: underline;
   margin: 0; /* Remove any default margin to avoid spacing issues */
   display: inline; /* Make the header and button appear inline */
@@ -75,7 +75,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100px;
 }
 
 
