@@ -12,9 +12,9 @@
 } */
 #popup-container {
   position: fixed;
-  top: 50px; /* Add padding from the top */
+  top: 150px; /* Add padding from the top */
   right: -400px; /* Add padding from the right */
-  bottom: 50px; /* Add padding from the bottom */
+  bottom: 150px; /* Add padding from the bottom */
   width: 300px;
   background: white;
   border: 2px solid black;
@@ -27,12 +27,12 @@
 }
 
 #popup-header {
-  font-size: 16px; /* Adjust the font size to your desired value */
   background-color: #f0f0f0;
   padding: 10px;
 }
 
 #popup-header h1 {
+  font-size: 10px; /* Adjust the font size to your desired value */
   text-decoration: underline; /* Add underline to "Collaboration Tools" */
 }
 
