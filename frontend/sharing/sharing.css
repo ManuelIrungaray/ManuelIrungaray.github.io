@@ -15,7 +15,8 @@
   top: 150px; /* Add padding from the top */
   right: -400px; /* Add padding from the right */
   bottom: 150px; /* Add padding from the bottom */
-  width: 300px;
+  border-radius: 10px; 
+  width: 200px;
   height: 50%;
   background: white;
   border: 2px solid black;
