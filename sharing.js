@@ -16,7 +16,7 @@ const popupContainer = document.getElementById("popup-container");
 const closeButton = document.getElementById("close-button");
 
 popupButton.addEventListener("click", () => {
-  popupContainer.style.right = "0"; // Slide the pop-up in from the right
+  popupContainer.style.right = "50"; // Slide the pop-up in from the right
 });
 
 closeButton.addEventListener("click", () => {
