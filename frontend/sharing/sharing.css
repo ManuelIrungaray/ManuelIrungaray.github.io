@@ -12,12 +12,12 @@
 } */
 #popup-container {
   position: fixed;
-  top: 10px; /* Add padding from the top */
-  right: 10px; /* Add padding from the right */
-  bottom: 10px; /* Add padding from the bottom */
+  top: 50px; /* Add padding from the top */
+  right: -400px; /* Add padding from the right */
+  bottom: 50px; /* Add padding from the bottom */
   width: 300px;
   background: white;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 10px; /* Add padding to the left */
   z-index: 10;
   transition: right 0.3s ease-in-out;
