@@ -27,6 +27,7 @@
 }
 
 #popup-header {
+  font-size: 16px; /* Adjust the font size to your desired value */
   background-color: #f0f0f0;
   padding: 10px;
 }
